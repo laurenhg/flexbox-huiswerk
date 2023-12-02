@@ -5,6 +5,28 @@
     padding: 0;
 }
 
+body {
+    display:flex;
+    min-height: 100vh;
+
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+
+.col-2 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+
 :root {
     --clr-blue-100: #E6EAEB;
     --clr-blue-200: #C3D7DC;
@@ -16,11 +38,17 @@
 header {
     background: var(--clr-blue-100);
     padding: 1em;
+    flex-basis: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
 }
 
 article {
     background: var(--clr-blue-200);
     padding: 1em;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 article p {
@@ -31,15 +59,23 @@ nav {
     color: var(--clr-blue-100);
     background: var(--clr-blue-400);
     padding: 1em;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+    flex-grow: 0;
+    flex-shrink: 0;
 }
 
 aside {
     background: var(--clr-blue-300);
     padding: 1em;
+    flex-basis: 0;
 }
 
 footer {
     color: var(--clr-blue-100);
     background: var(--clr-blue-500);
     padding: 1em;
+    flex-grow: 0;
+    flex-shrink: 0;
 }
