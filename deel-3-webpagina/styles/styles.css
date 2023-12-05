@@ -1,1 +1,118 @@
-/*Schrijf hier jouw css*/
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Poppins:wght@300;400;500;800&family=Roboto&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header ul {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    border: 2px solid red;
+    display:flex;
+    max-width: 100vw;
+    height: 70px;
+    flex-direction: row;
+    padding-right:40px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 50px;
+}
+
+li * {
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+}
+
+
+
+.title {
+    text-align: center;
+    font-weight: bold;
+    line-height:40px;
+    padding: 50px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "roboto", sans-serif;
+    background-color: #F2F3D9;
+    min-height: 100vh;
+}
+
+
+
+.flex-container {
+    border:  2px dashed purple;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    gap: 50px;
+    justify-content: center;
+    min-height: 500px;
+    border: 2px dashed deeppink;
+
+
+}
+
+box {
+    display:flex;
+    border: 3px solid black;
+    width: 280px;
+    height: 350px;
+    flex-shrink: 1;
+    flex-basis: 0;
+    flex-grow: 1;
+
+}
+
+.box-1 {
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    text-indent: 1em;
+    line-height: 1.5;
+    padding:20px;
+   padding-bottom: 20px;
+    background-color: #C16E70;
+    flex-basis: 300px;
+    flex-grow: 0;
+    flex-shrink: 1;
+
+
+}
+.box-2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    text-indent: 1em;
+    line-height: 1.5;
+    padding-bottom: 20px;
+    padding: 20px;
+    background-color: #C16E70;
+    flex-basis: 300px;
+    flex-shrink: 1;
+}
+
+    .box-3 {
+        display:flex;
+        justify-content: center;
+        align-items: flex-end;
+        text-align: center;
+        text-indent: 1em;
+        line-height: 1.5;
+        padding-bottom: 20px;
+        padding: 20px;
+        background-color: #C16E70;
+        flex-basis: 300px;
+        flex-shrink: 1;
+
+    }
