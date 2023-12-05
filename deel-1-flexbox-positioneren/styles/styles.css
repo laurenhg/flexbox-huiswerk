@@ -1,1 +1,106 @@
 /*Schrijf hier jouw CSS*/
+
+.opdracht-1 {
+    border: 2px dashed deeppink;
+
+
+}
+
+.opdracht-1 ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+
+.opdracht-2 ul {
+    border: 2px dashed deeppink;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-basis: auto;
+    height:150px;
+}
+
+.opdracht-2 li {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 0px;
+    height: 120px;
+    flex-grow: 1;
+}
+
+.opdracht-3 ul {
+    border: 2px dashed hotpink;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.top {
+
+    height: 40px;
+
+}
+
+.middle {
+
+  display: flex;
+    height: 40px;
+    justify-content: center;
+    align-self: center;
+}
+
+.bottom {
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+}
+
+.opdracht-4 ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   gap: 10px;
+}
+
+.opdracht-5 {
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: row;
+    max-width: 800px;
+    height: fit-content;
+    min-height: 100%;
+    padding: 40px;
+}
+
+.left-column,
+.middle-column,
+.right-column {
+    display:flex;
+    flex-direction: column;
+
+}
+
+.left-column {
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.middle-column {
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed pink;
+    gap: 30px;
+}
+
+.right-column {
+    justify-content: flex-end;
+    align-items: flex-end;
+}
